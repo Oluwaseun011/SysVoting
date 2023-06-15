@@ -826,19 +826,37 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\Cute Developer\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\hp\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+>>>>>>> d77a2cf464e72d178a213eebbf3dee489b9693f1
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "C:\\Users\\Cute Developer\\SysVoting\\SysVoting\\SysVoting.csproj",
       "projectName": "SysVoting",
       "projectPath": "C:\\Users\\Cute Developer\\SysVoting\\SysVoting\\SysVoting.csproj",
       "packagesPath": "C:\\Users\\Cute Developer\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Cute Developer\\SysVoting\\SysVoting\\obj\\",
+=======
+      "projectUniqueName": "C:\\Users\\hp\\Desktop\\SysVoting\\SysVoting\\SysVoting.csproj",
+      "projectName": "SysVoting",
+      "projectPath": "C:\\Users\\hp\\Desktop\\SysVoting\\SysVoting\\SysVoting.csproj",
+      "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\hp\\Desktop\\SysVoting\\SysVoting\\obj\\",
+>>>>>>> d77a2cf464e72d178a213eebbf3dee489b9693f1
       "projectStyle": "PackageReference",
       "configFilePaths": [
+<<<<<<< HEAD
         "C:\\Users\\Cute Developer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+        "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+>>>>>>> d77a2cf464e72d178a213eebbf3dee489b9693f1
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
