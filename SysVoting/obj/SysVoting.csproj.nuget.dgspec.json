@@ -1,24 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\source\\repos\\SysVoting\\SysVoting\\SysVoting.csproj": {}
+<<<<<<< HEAD
+    "C:\\Users\\Cute Developer\\SysVoting\\SysVoting\\SysVoting.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\source\\repos\\SysVoting\\SysVoting\\SysVoting.csproj": {
+    "C:\\Users\\Cute Developer\\SysVoting\\SysVoting\\SysVoting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\source\\repos\\SysVoting\\SysVoting\\SysVoting.csproj",
+        "projectUniqueName": "C:\\Users\\Cute Developer\\SysVoting\\SysVoting\\SysVoting.csproj",
         "projectName": "SysVoting",
-        "projectPath": "C:\\Users\\user\\source\\repos\\SysVoting\\SysVoting\\SysVoting.csproj",
-        "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\source\\repos\\SysVoting\\SysVoting\\obj\\",
+        "projectPath": "C:\\Users\\Cute Developer\\SysVoting\\SysVoting\\SysVoting.csproj",
+        "packagesPath": "C:\\Users\\Cute Developer\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Cute Developer\\SysVoting\\SysVoting\\obj\\",
+=======
+    "C:\\Users\\hp\\Desktop\\SysVoting\\SysVoting\\SysVoting.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\hp\\Desktop\\SysVoting\\SysVoting\\SysVoting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hp\\Desktop\\SysVoting\\SysVoting\\SysVoting.csproj",
+        "projectName": "SysVoting",
+        "projectPath": "C:\\Users\\hp\\Desktop\\SysVoting\\SysVoting\\SysVoting.csproj",
+        "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hp\\Desktop\\SysVoting\\SysVoting\\obj\\",
+>>>>>>> d77a2cf464e72d178a213eebbf3dee489b9693f1
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config",
+<<<<<<< HEAD
+          "C:\\Users\\Cute Developer\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+          "C:\\Users\\hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+>>>>>>> d77a2cf464e72d178a213eebbf3dee489b9693f1
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +41,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -44,6 +58,18 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -63,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
         }
       }
     }

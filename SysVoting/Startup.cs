@@ -8,6 +8,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using SysVoting.Data;
 
 namespace SysVoting
 {
@@ -24,6 +25,8 @@ namespace SysVoting
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllersWithViews();
+            var connectionString = Configuration.GetConnectionString("MyVoting");
+            services.AddDbContext<ApplicationDbContext>(options => options.UseMySQL(connectionString));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
